@@ -7,13 +7,25 @@ body {
     font-size: 17px;
 }
 
+#body {
+  position: relative;
+  background-color: black;
+  padding: 10px;
+}
+
+#bottom {
+  position: relative;
+  padding: 20px;
+  background-color: white;
+}
+
 .content {
     position: relative;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
-    padding: 20px;
+    padding: 100px;
 }
 
 #myVideo {
