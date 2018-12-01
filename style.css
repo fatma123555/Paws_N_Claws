@@ -22,12 +22,7 @@ body {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: 550px;
-    margin-top: -85px;
-    margin-left: -129px;
 }
-
 
 #well {
   background-color: rgba(0, 0, 0, 0.75)
