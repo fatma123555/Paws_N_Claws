@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+.content {
+    position: relative;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#well {
+  background-color: rgba(0, 0, 0, 0.75)
+}
+
+p {
+  color: white
+}
+
+h1 {
+  color: white
+}
+
+
+}
