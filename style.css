@@ -52,8 +52,7 @@ p {
 }
 
 h1 {
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
+  color: white
 }
 .form-control {
   margin-top: 2px;
@@ -71,49 +70,3 @@ h1 {
  .nav {
    font-size: 15px;
  }
-
-#map-bg {
-  background: url(img/world-map.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 320%;
-}
-
-#sahara {
-   position: relative;
-   top: 100px;
-   right: 100px;
-   bottom: 0;
-   left: 620px;
-   overflow: auto;
-   overflow-y: auto;
-}
-
-#amazon {
-   position: relative;
-   top: 270px;
-   right: 100px;
-   bottom: 0;
-   left: 350px;
-   overflow: auto;
-   overflow-y: auto;
-}
-
-#antartica {
-   position: relative;
-   top: 515px;
-   right: 400px;
-   bottom: 0;
-   left: 620px;
-   overflow: auto;
-   overflow-y: auto;
-}
-
-#title-EA {
-  background-color: rgba( 10, 60, 50, 0.5);
-}
-
-
-img.resize {
-  max-width:40%;
-  max-height:40%;
-}
