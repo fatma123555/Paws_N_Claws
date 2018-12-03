@@ -111,3 +111,9 @@ h1 {
 #title-EA {
   background-color: rgba( 10, 60, 50, 0.5);
 }
+
+
+img.resize {
+  max-width:40%;
+  max-height:40%;
+}
