@@ -69,3 +69,7 @@ h1 {
  .nav {
    font-size: 15px;
  }
+
+ #explore {
+   background-image: image(img/world-map.jpg);
+ }
