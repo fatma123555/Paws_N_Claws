@@ -47,7 +47,8 @@ body {
 }
 
 p {
-  color: white
+  color: white;
+  font-size: 14px;
 }
 
 h1 {
