@@ -70,3 +70,9 @@ h1 {
  .nav {
    font-size: 15px;
  }
+
+#map-bg {
+  background: url(img/world-map.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 320%;
+}
