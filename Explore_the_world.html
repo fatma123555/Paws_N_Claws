@@ -3,6 +3,10 @@
  <head>
    <link href="css/bootstrap.css" rel="stylesheet">
    <link href="style.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <script src="js/jquery-3.3.1.min.js"></script>
+   <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
  </head>
 
 
@@ -45,49 +49,53 @@
   </nav>
   </header>
   <body id="map-bg">
-
-    <center>
-<h1> Endangered animals</h1>
-</center>
 <div>
-  <div class="row">
-  <div class="col-md-3 col-md-offset-3"><button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+    <center>
+<h1 id="title-EA">Endangered Animals Interactive Map</h1>
+</center>
+</div>
+<div class="w3-container">
+  <button id="amazon" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green">Amazon Rainforest</button>
 
-  <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        ...
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <p>Some text. Some text. Some text.</p>
+        <p>Some text. Some text. Some text.</p>
       </div>
     </div>
-  </div></div>
-  <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+  </div>
 </div>
 
- </div>
-   <div>
-   <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+<div class="w3-container">
+  <button id="antartica" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-blue">Antartic Desert</button>
 
-   <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-     <div class="modal-dialog modal-lg" role="document">
-       <div class="modal-content">
-         ...
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content">
+      <div class="w3-container">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        <p>Some text. Some text. Some text.</p>
+        <p>Some text. Some text. Some text.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <div class="w3-container">
+   <button id="sahara" onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-yellow">Sahara Desert</button>
+
+   <div id="id01" class="w3-modal">
+     <div class="w3-modal-content">
+       <div class="w3-container">
+         <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+         <p>Some text. Some text. Some text.</p>
+         <p>Some text. Some text. Some text.</p>
        </div>
      </div>
    </div>
  </div>
-<div>
-   <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
 
-   <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-     <div class="modal-dialog modal-lg" role="document">
-       <div class="modal-content">
-         ...
-       </div>
-     </div>
-   </div>
-<div>
-
-
-
+</div>
  </body>
 </html>
