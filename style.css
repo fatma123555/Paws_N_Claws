@@ -24,7 +24,7 @@ body {
 #footer {
   position: relative;
   background-color: black;
-  padding: 100px;
+  padding: 20px 20px 140px 20px;
 }
 
 .content {
@@ -45,7 +45,7 @@ body {
 }
 
 #well {
-  background-color: rgba( 10, 60, 50, 0.5);
+  background-color: rgba( 30, 100, 100, 0.5);
 }
 
 p {
@@ -77,7 +77,7 @@ h1 {
  }
 
 #map-bg {
-  background: url(img/world-map.jpg);
+  background: url(img/world-map1.jpg);
   background-repeat: no-repeat;
   background-size: 100% 320%;
 }
@@ -116,6 +116,40 @@ h1 {
   background-color: rgba( 10, 60, 50, 0.5);
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #E8004D;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 
 img.resize {
   max-width:40%;
