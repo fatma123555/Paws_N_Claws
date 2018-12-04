@@ -1,14 +1,11 @@
-@font-face {
-font-family: cinzel;
-src: url ('font/CinzelDecorative-Black.otf');
-}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    font-family: Arial;
+    font-family: "Ariel";
     font-size: 17px;
 }
 
@@ -54,12 +51,13 @@ body {
 p {
   color: white;
   font-size: 14px;
+
 }
 
 h1 {
   color: white;
   text-shadow: 2px 2px 4px #000000;
-  font-family: cinzel;
+ font-family: 'Voltaire', sans-serif;
 
 }
 .form-control {
