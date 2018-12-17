@@ -3,6 +3,8 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -10,77 +12,83 @@
 
   <body>
     <header>
-<video autoplay muted loop id="myVideo">
-<source src="https://staging.coverr.co/s3/mp4/Toy_is_gone.mp4" type="video/mp4">
-</video>
-<div class="content">
-  <h1 style="font-size:420%;" align="right">Paws and Claws</h1>
-  <p align="right"><i>Give animals a chance!</i></p>
-</div>
+      <video autoplay muted loop id="myVideo">
+        <source src="https://staging.coverr.co/s3/mp4/Toy_is_gone.mp4" type="video/mp4">
+      </video>
+      <div class="content">
+        <h1 style="font-size:420%;" align="right">Paws and Claws</h1>
+        <p align="right"><i>Give animals a chance!</i></p>
+      </div>
     </header>
-      <div id="body">
+
+<div id="body">
 
       <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="index.html">
-        <img alt="Brand" src="logo.png" width="30" height="30">
-      </a>
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">About Us</a>
-    </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Locations</a></li>
-        <li><a href="Explore_the_world.html">Explore the World</a></li>
-      </ul>
-      <form class="navbar-form navbar-right">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Contact Us</a></li>
-
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+              <img alt="Brand" src="logo.png" width="30" height="30">
+            </a>
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                  <li><a href="#">Events</a></li>
+                  <li><a href="Explore_the_world.html">Explore the World</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Office Locations <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Birmingham</a></li>
+                      <li><a href="#">London</a></li>
+                      <li><a href="#">Manchester</a></li>
+                    </ul>
+                  </ul>
+                  <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          </nav>
     <!--the divs are in order of sections-->
     <div class="row">
         <div class="col-md-4">
             <div id="well" class="well">
               <h1>News</h1>
-                <p>At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
-                </p>
-                <a class="twitter-timeline" data-height="500" href="https://twitter.com/OutOfWild?ref_src=twsrc%5Etfw">Tweets by OutOfWild</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                <br/>
+                <p>Follow our latest news on our Twitter page while learning about different types of animals too!</p>
+                <a class="twitter-timeline" data-width="500" data-height="675" href="https://twitter.com/OutOfWild?ref_src=twsrc%5Etfw">Tweets by OutOfWild</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              </br>
             </div>
         </div>
         <div class="col-md-8">
-            <div class="row">
-                <div class="col-md-6">
-                    <div id="well"class="well" align="center">
-                      <h1>Explore The World!</h1>
-                      <a href="Explore_the_world.html" title="Click here for more animals!"><img src="https://brianin3d.files.wordpress.com/2012/01/just_earth_400.gif?w=480"> </img>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                    <div id="well" class="well">
-                        <h1>About Us</h1>
-                          <p>Paws N Claws is an organisation that works to share valubale information about endagnered animals to school children through workshops held around the UK. We at Paws N Claws work hard to raise awareness of these endangered animals and our team volunteers for the wellbeing of the animals around the world and donate to shelters to help the animals too. Join our cause by contacting us for a workshop at your school, or donate to the cause below!
-                          </p>
-                          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <div class="row">
+            <div class="col-md-6">
+              <div id="well" class="well" align="center">
+                <h1>Explore The World!</h1>
+                  <p>Click on the map to learn about all the endagered animals on planet eart! This fun interactive map will help your children and students to understand the different climates that these endangered animals live in!</p>
+                    <a href="Explore_the_world.html" title="Click here for more animals!"><img src="https://brianin3d.files.wordpress.com/2012/01/just_earth_400.gif?w=480"></a>
+              </div>
+            </div>
+              <div class="col-md-6">
+                <div id="well" class="well">
+                  <h1>About Us</h1>
+                    <p>Paws N Claws is an organisation that works to share valubale information about endagnered animals to school children through workshops held around the UK. We at Paws N Claws work hard to raise awareness of these endangered animals and our team volunteers for the wellbeing of the animals around the world and donate to shelters to help the animals too. Join our cause by contacting us for a workshop at your school, or donate to the cause below!</p>
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                             <!-- Indicators -->
                               <ol class="carousel-indicators">
                               <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -90,13 +98,13 @@
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
                               <div class="item active">
-                                <img src="img/team.jpg" alt="Meet the team">
+                                <img src="img/team.jpg" alt="Meet the team" style="width:350px;height:280px;">
                               </div>
                               <div class="item">
-                                <img src="img/school.jpg" alt="School Workshops">
+                                <img src="img/school.jpg" alt="School Workshops" style="width:350px;height:280px;">
                               </div>
                               <div class="item">
-                                <img src="img/elephant.jpg" alt="Volunteering in Africa">
+                                <img src="img/elephant.jpg" alt="Volunteering in Africa" style="width:350px;height:280px;">
                               </div>
                             </div>
                             <!-- Controls -->
@@ -111,26 +119,25 @@
                           </div>
                     </div>
                 </div>
-            </div>
+              </div>
             <div class="row">
                 <div class="col-md-6">
                     <div id="well" class="well">
-                        <h1>Upcoming Events</h1>
-                         <p>At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
-                         </p>
+                        <h1>Follow Us!</h1>
+                         <p>Learn all the latest with Paws N Claws!</p>
+                         <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+                         <a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
+                         <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram" target="_blank"></a>
+                         <a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost" target="_blank"></a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div id="well" class="well">
                         <h1>Donate</h1>
-                          <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                          Donate here!
-                          </a>
-                            <div class="collapse" id="collapseExample">
-                              <div class="well">
-                               "Thank you for donating to the Paws and Claws organisation! Your donation will help to keep many children informed of the many different animals there are left in the wild!""
-                              </div>
-                          </div>
+                        <p>Donate and Adopt an Animal or Join as a Member. Every donation will be followed with a fact file and a free cuddly toy just for you!</p>
+                        <div class="btn-group" role="group" aria-label="Donate">
+                          <button id="donate" type="button" class="btn btn-default" onclick="myFunction()">Click to Donate</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -140,15 +147,32 @@
     <div id="bottom" class="row">
         <div class="col-md-6">
             <div id="well" class="well">
-                <h1>Partners</h1>
-                  <p>At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
-                  </p>
+              <h1>Partners</h1>
+              <p>Through the amazing patnerships we have been able to host a wide variety of workshops within schools and local libraries and provide help to safaries in Africa and the Amazon in preserving the endangered animals habitats!</p>
+              <p>Have a look at our amazing partners:</p>
+              <center>
+                <div>
+                  <a href="https://www.barclays.co.uk" target="_blank"><img src= "https://theturingtrust.files.wordpress.com/2018/03/barclays.jpg" height= "100" width= "100"></a>
+                  <a href="https://www2.hm.com/en_gb/index.html#modal-1" target="_blank"><img src = "https://therockbury.com/wp-content/uploads/2014/03/HM-logo.jpg" height= "100" width= "100"></a>
+                  <a href="https://www.ey.com/uk/en/home" target="_blank"><img src= "http://1.bp.blogspot.com/-q6KctzyvpxU/UdK18T-GYWI/AAAAAAAAaic/SRCL__L9O_M/s917/EY+logo+2013.png" height= "100" width= "100"></a>
+                  <a href="https://www8.hp.com/uk/en/home.html" target="_blank"><img src = "https://intercompras.com/images/product/HP_JD363B.jpg" height= "100" width= "100"></a>
+                  <a href="https://www.endangeredspeciesinternational.org/" target="_blank"><img src = "https://cdnfiles.crowdrise.com/Prod_Large/Untitled2-4f9a1ebddf8b5.jpg" height= "100" width= "100"></a>
+                </div>
+              </br>
+                <div>
+                  <a href="https://www.wwf.org.uk/"><img src = "https://pbs.twimg.com/profile_images/700607704151126016/FjtJU4W4_400x400.jpg" height= "100" width= "100"></a>
+                  <a hred= "https://www.coca-cola.co.uk"><img src = "https://vignette.wikia.nocookie.net/logopedia/images/d/d8/Coca-Cola_square_logo.png/revision/latest?cb=20161025154352" height "100" width= "100"></a>
+                  <a href="http://www.un.org/en/index.html" target="_blank"><img src = "https://yt3.ggpht.com/a-/AN66SAyhwSLh7AMs0BTocJD051rM6SiJKyoi6pSvfw=s900-mo-c-c0xffffffff-rj-k-no" height= "100" width= "100"></a>
+                  <a href="http://www.hsi.org/" target="_blank"><img src="https://pbs.twimg.com/profile_images/934102734298669056/qRVz3KKF_400x400.jpg" height= "100" width= "100"></a>
+                  <a href="https://www.scouts.org.uk/home/" target="_blank"><img src = "http://static.wixstatic.com/media/cc5356_f36fc43ff26b48ac8a907d7faa213cdd.png" height= "100" width= "100"></a>
+                </div>
+              </center>
             </div>
         </div>
         <div class="col-md-6">
             <div id="well" class="well">
               <h1>Contact Us</h1>
-
+            </br>
               <form action="action_page.php">
 
                    <label for="name">Name</label>
@@ -167,19 +191,24 @@
     </div>
     <div id="footer" class"row">
       <div class="col-md-4" align="left">
-      <p>Conact us
-        123 success avenue
-        Birmingham
-        b23 4KL
-      </p>
+        <p><u>Main Office</u></p>
+        <p>123 success avenue</p>
+        <p>Birmingham</p>
+        <p>b23 4KL</p>
+      </div>
+      <div class="col-md-4" align="center">
+        <p>Paws N Claws 2018©</p>
+      </div>
+      <div class="col-md-4" align="right">
+        <p>Careers</p>
+        <p>Volunteering</p>
+        <p>Get Involved<p>
+      </div>
     </div>
-    <div class="col-md-4" align="center">
-      <p>Copyright</p>
-    </div>
-    <div class="col-md-4" align="right">
-      <p>Careers</p>
-    </div>
-  </div>
-  <script src="js/scripts.js"></script>
+    <script>
+      function myFunction() {
+      alert("Thank you for your interest! Our donation page will be coming very soon!");
+      }
+    </script>
   </body>
 </html>
